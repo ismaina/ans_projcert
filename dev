@@ -1,5 +1,6 @@
 [puppet]
 puppet-agent
-
+[puppet:vars]
+ansible_python_interpreter=/usr/bin/python3
 [control]
 control ansible_connecton=local
