@@ -2,6 +2,7 @@
 - hosts: puppet
   gather_facts: False
   become: true
+  become_user: root
   vars:
     - packages: ["git"]
   tasks:
