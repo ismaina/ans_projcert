@@ -4,7 +4,7 @@
   become: true
   become_user: root
   vars:
-    - packages: ["git"]
+    - packages: ["git" , "docker.io"]
   tasks:
     - name: Installing {{ packages }} on {{ hostname }}
       apt:
