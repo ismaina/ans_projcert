@@ -1,0 +1,8 @@
+---
+- hosts: puppet
+  become: true
+  tasks:
+  - name: install git
+    apt:
+      name:
+        - git

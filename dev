@@ -1,0 +1,5 @@
+[puppet]
+puppet-agent
+
+[control]
+control ansible_connecton=local
